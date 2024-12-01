@@ -1,0 +1,83 @@
+/* General body styling for a clean background */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #f3f7fa, #ffffff);
+    margin: 0;
+    padding: 0;
+}
+
+/* Form container styling */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+/* Form labels: make them bold and dark */
+form label {
+    font-weight: bold;
+    color: #2c3e50; /* Dark color for text */
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Input fields styling */
+form select, form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #3498db; /* Blue border */
+    border-radius: 5px;
+    color: #2c3e50;
+    font-weight: bold;
+    background-color: #eaf4fc; /* Light blue background */
+    margin-bottom: 20px;
+}
+
+/* Add hover effect for inputs */
+form select:hover, form input:hover {
+    background-color: #d6ecfa; /* Slightly darker blue on hover */
+}
+
+/* Add focus effect for inputs */
+form select:focus, form input:focus {
+    border-color: #1d73b2; /* Darker blue border */
+    box-shadow: 0 0 5px rgba(29, 115, 178, 0.5);
+    outline: none;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(to right, #3498db, #2980b9); /* Blue gradient */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(to right, #2980b9, #1d73b2); /* Darker gradient on hover */
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+/* Title styling */
+h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+/* Add a subtle shadow effect to the title */
+h2 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
